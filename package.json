@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@kontent-ai/custom-app-sdk": "^1.0.0",
-    "@kontent-ai/management-sdk": "^7.6.1",
+    "@kontent-ai/management-sdk": "^7.7.0",
     "@kontent-ai/stylekit": "^1.0.0",
     "@netlify/functions": "^3.0.1",
     "@tailwindcss/vite": "^4.0.9",

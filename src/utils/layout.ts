@@ -40,7 +40,6 @@ type NodeData = {
 
 export type ContentTypeNodeData = NodeData & {
   elements: AnnotatedElement[];
-  selfReferences: string[];
 };
 
 export type SnippetNodeData = NodeData & {
@@ -70,7 +69,7 @@ export const getLayoutedElements = (
     ranksep: 200,
     align: "UL", // UL, UR, DL, DR
     ranker: "network-simplex", // network-simplex, tight-tree, longest-path
-    // acyclicer: "greedy",
+    acyclicer: "greedy",
   });
 
   nodes.forEach((node) => {

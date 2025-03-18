@@ -23,7 +23,7 @@
     "@tailwindcss/vite": "^4.0.9",
     "dagre": "^0.8.5",
     "html2canvas-pro": "^1.5.8",
-    "jspdf": "^3.0.0",
+    "jspdf": "^3.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "reactflow": "^11.11.4",
